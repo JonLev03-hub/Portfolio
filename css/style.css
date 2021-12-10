@@ -1,22 +1,22 @@
+body {
+  background-image: url("../images/background2.jpg");
+  background-repeat : repeat;
+  background-size : 25%;
+  font-family : "century gothic";
+  color : antiquewhite;
+  font-weight : 600px;
+ }
 h1 {
     font-size: 70px;
-  }
-  body {
-    background-image: url("../images/background2.jpg");
-    background-repeat : repeat;
-    background-size : 25%;
-    font-family : "century gothic";
-    color : antiquewhite;
     font-weight : 600px;
-   }
+  }
 button { 
 background-color :transparent;
 border : 3px solid antiquewhite ;
 outline : 8px;
-height : 125%;
-width : 50%;
+height : 155%;
+width : 75%;
 border-radius : 5px;
 font-size : 18px;
 color : antiquewhite;
-font-weight : 600px;
 }
