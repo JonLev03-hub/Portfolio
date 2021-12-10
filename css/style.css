@@ -1,0 +1,28 @@
+h1 {
+    font-size: 70px;
+  }
+  body {
+    background-image: url("../images/background2.jpg");
+    background-repeat : repeat;
+    background-size : 25%;
+    font-weight: 900;
+    font-family : "Courier New";
+   }
+button { 
+background-color :rgb(160, 159, 159);
+border : 4px solid black ;
+outline : 8px;
+color: rgb(236, 236, 236);
+height : 125%;
+width : 50%;
+border-radius : 5px
+}
+
+/* .btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  } */
