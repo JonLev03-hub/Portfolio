@@ -1,0 +1,21 @@
+body { 
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin :0;
+    background-color : antiquewhite;
+}
+.outlined {
+    color : rgb(0, 0, 0);
+    background : transparent;
+    font-size : 5em;
+    font-weight : bold;
+    text-align : center;
+}
+.colors {
+    border : 10px solid rgb(31, 31, 31);
+    border-radius : 5px;
+    width : 200px;
+    height : 200px;
+    margin : 20px;
+}

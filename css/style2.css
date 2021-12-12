@@ -1,0 +1,18 @@
+.btn-one{ 
+    background-color :transparent;
+    border : none ;
+    font-size : 22px;
+    color : rgb(0, 0, 0);
+    font-family:verdana,"century gothic";
+}
+body { 
+    background-color :  rgb(241, 241, 241);
+    font-family : "verdana";
+}
+.big { 
+    font-size: 350%;
+}
+#welcome { 
+    margin-top : 30%;
+    font-family : 'Times New Roman'
+}
