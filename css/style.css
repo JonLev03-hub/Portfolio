@@ -1,6 +1,7 @@
 .btn-one{ 
     background-color :transparent;
     border : none ;
+    border-radius: 5px;
     font-size : 22px;
     color : rgb(0, 0, 0);
     font-family:verdana,"century gothic";
