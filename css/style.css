@@ -67,3 +67,7 @@ h1 {
     bottom:5px;
     right:145px;
 }
+
+#projects { 
+    max-width: 1200px;
+}
