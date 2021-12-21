@@ -4,20 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/colorPage.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-flex">
-        <h1 class = "outlined jumbotron">Please Select a Color</h1>
-        <div class ="row" id = "colors">
-           <a href = "home.html"> <button class = "colors" id = "red" style = "background-color : red"></button></a>
-           <a href = "home.html"></a> <button class = "colors" id = "blue" style = "background-color : blue"></button></a>
-           <a href = "home.html"></a> <button class = "colors" id = "grey" style = "background-color : grey"></button></a>
-           <a href = "home.html"></a> <button class = "colors" id = "green" style = "background-color : green"></button></a>
+    <div class="container pt-3">
+        <div class="row pt-2" id = "navbar">
+            <div class="col-md ">
+                <a href = "index.html"> <button class = "btn-one">Home</button></a>
+            </div>
+            <div class="col-md text-right">
+                <a href="resources/resume.pdf" target="_blank"> <button class = "btn-one">Resume</button></a>
+            </div>
+            <div class="col-md-2 d-flex justify-content-center">
+                <a href = portfolio.html><button class = "btn-one">Portfolio</button></a>
+            </div>
+            <div class="col-md">
+                <a href = "https://github.com/JonLev03-hub" target = "_blank" rel="noopener noreferrer"><button class = "btn-one">Git-Hub</button></a>
+            </div>
+            <div class="col-md text-right">
+                <button class = "btn-one">Contact</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="row">
+                    <h1 class = "big" id = "welcome">Welcome,</h1>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <p id = "bio">
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="col-md">
 
+            </div>
         </div>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src = "js/script.js"></script>
+<script src = "js/bio.js"></script>
 </html>

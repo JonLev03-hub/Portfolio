@@ -23,22 +23,20 @@ function createItems() {
         // define all of the items for the project
         let title = document.createElement("h1");
         title.textContent = repo;
-        console.log(title)
         let desc = document.createElement("p")
         desc.textContent = repos[repo].desc;
-        console.log(desc)
         let link = repos[repo].link;
         //assign all of the items to the project
         let project = document.createElement('div')
         project.classList += "project";
         project.insertAdjacentHTML("beforeend", `<h1>${repo}</h1>`)
         project.appendChild(desc)
-        project.insertAdjacentHTML("beforeend", `<a href="${link}"><image class="git" src = "resources/github.png"></image></a>`);
+        project.insertAdjacentHTML("beforeend", `<a href="${link}" target = "_blank" rel="noopener noreferrer"><image class="git" src = "resources/github.png"></image></a>`);
         projects.appendChild(project)
 
      })
 }
-//collect the data from githu
+//collect the data from github
 d3.json(`https://api.github.com/users/${username}/repos`).then( data =>{
 getRepos(data)
 createItems()
