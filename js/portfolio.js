@@ -1,18 +1,18 @@
 const username = "JonLev03-hub"
+const starredOnly = false
 let repos = {
     index : []
 }
 d3.json(`https://api.github.com/users/${username}/starred`).then( starred =>{
-    starred.forEach(project => {repos.index.push(project.name);});
+    starred.forEach(project => {if (project.owner.login == username){repos.index.push(project.name);}});
 })
-
 function getRepos(data) {
     data.forEach(repo => {
         repos[repo.name] = {
             desc : repo.description,
             link : repo.html_url
         }
-        if (repos.index.includes(repo.name) == false && repo.name !==username ) {
+        if (repos.index.includes(repo.name) == false && repo.name !==username && !starredOnly ) {
             repos.index.push(repo.name)
         };
     })
