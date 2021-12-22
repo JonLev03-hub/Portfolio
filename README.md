@@ -47,9 +47,3 @@ Inside the 404 page I will be adding a game that can be played as a simple easte
 
 #### Customization
 I would like to add more custom features that will be pulled out of the users account readme that is used on the welcome page to create a more genuine feel for each portfolio.
-
-#### Potential Error
-There may be an error that will occure when you star projects from other users, this would likely cause the project list to end when the javascript gets to that project; messing up the website. Should be a simple fix, but I haven't gotten around to testing
-
-#### Starred Only
-I would like to add a toggle feature to only display starred projects if the website owner so chooses
