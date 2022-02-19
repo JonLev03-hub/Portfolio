@@ -17,6 +17,7 @@ function getRepos(data) {
         };
     })
 };
+
 function createItems() {
     let projects = document.getElementById("projects")
     repos.index.forEach(repo => {
