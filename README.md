@@ -14,6 +14,8 @@ Once you have cloned the repository onto your github for to use used on your git
  
 ### The Home Page
 First to make sure that the website knows what account to look at go into the file called "bio.js" located in the js folder. assign the username variable (where it says jonlev03-hub) to your own account username.
+![image](https://user-images.githubusercontent.com/81537476/171308346-034d823a-3dd7-42ff-a190-7f9222ad5dce.png)
+
 
 Once that is complete you will need to create a github repository with the same name as your github profile. Displayed below is an image of my github repository. The welcome paragraph is set to the description of this repository since they will likely be conveying the same details. If you have already created a repository called the same as your username, you will be able to edit the description by clicking the settings icon inside of the "about" section in the right of the screen of the repository.
 
@@ -27,6 +29,8 @@ Adding your resume to the website is relatively streight forward. Simply navigat
 
 ### Dynamic Portfolio Page
 The most important part of this website is the portfolio page. This goes to github and dispalys all your current projects.
+![image](https://user-images.githubusercontent.com/81537476/171308294-1831f218-233e-47a1-a5c3-cf258ee0074b.png)
+
 
 First to make sure that the website knows what account to look at, you will need to go to the js folder and find "portfolio.js" In this document you will need to assign the username variable to your account username (where it says jonlev03-hub). After updating and saving this you should see your repositories displayed in the portfolio page. Each project will have a title, a link at the bottom where the github logo is located. 
 
